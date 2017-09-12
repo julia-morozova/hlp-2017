@@ -29,6 +29,17 @@ RTFM and use:
 * http://testng.org/doc/
 * http://site.mockito.org/
 
+## Лекции:
+###2017-09-12
+* JDK = JRE + Development/debugging tools
+  JRE = JVM + Java Packages Classes(like util, math, lang, awt,swing etc)+runtime libraries.
+  JVM = Class loader system + runtime data area + Execution Engine.
+* https://habrahabr.ru/post/269621/ - GC
+* https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
+* Jeanne Boyarsky - OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide (chapters 1, 2) или Bruce Eckel - Thinking in Java (страницы 5 - 51)
+* Joshua Bloch - Effective Java (страницы 5 - 54)
+!!! Контракт equals и hashCode!!!
+
 ## Литература
 1. Joshua Bloch - Effective Java
 2. Bruce Eckel - Thinking in Java
