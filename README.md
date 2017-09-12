@@ -30,7 +30,7 @@ RTFM and use:
 * http://site.mockito.org/
 
 ## Лекции:
-###2017-09-12
+### 2017-09-12
 * JDK = JRE + Development/debugging tools
   JRE = JVM + Java Packages Classes(like util, math, lang, awt,swing etc)+runtime libraries.
   JVM = Class loader system + runtime data area + Execution Engine.
