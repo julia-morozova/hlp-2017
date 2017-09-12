@@ -38,6 +38,7 @@ RTFM and use:
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
 * Jeanne Boyarsky - OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide (chapters 1, 2) или Bruce Eckel - Thinking in Java (страницы 5 - 51)
 * Joshua Bloch - Effective Java (страницы 5 - 54)
+
 !!! Контракт equals и hashCode!!!
 
 ## Литература
