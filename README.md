@@ -41,9 +41,34 @@ RTFM and use:
 
 !!! Контракт equals и hashCode!!!
 
+### 2017-09-26
+Comparable vs Comparator
+* https://docs.oracle.com/javase/9/docs/api/java/util/Comparator.html
+* https://docs.oracle.com/javase/9/docs/api/java/lang/Comparable.html
+
+Arrays
+* https://docs.oracle.com/javase/9/docs/api/java/util/Arrays.html
+
+Модификаторы доступа
+* Bruce Eckel - Thinking in Java (страницы 107 - 217)
+* Jeanne Boyarsky - OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide (страницы 165 - 202, 233-291)
+
+Вложенные классы
+* Bruce Eckel - Thinking in Java (страницы 243 - 273)
+* https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+
+Перечисляемые типы
+* https://docs.oracle.com/javase/tutorial/java/javaOO/enum.html
+* Joshua Bloch - Effective Java (главы 30, 31 ,34)
+* Bruce Eckel - Thinking in Java (страницы 725 - 734)
+
 ## Литература
 1. Joshua Bloch - Effective Java
 2. Bruce Eckel - Thinking in Java
 3. Brian Goetz - Java Concurrency in Practice
 4. Jeanne Boyarsky - OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide
-5. James Gosling - Language Specification (Java SE 8 Edition) - https://docs.oracle.com/javase/specs/jls/se8/jls8.pdf
+5. James Gosling - Language Specification (Java SE 9 Edition) - https://docs.oracle.com/javase/specs/jls/se9/jls9.pdf
+
+на русском:
+1. Брюс Эккель - Философия Java
+2. Дж. Блох - Java. Эффективное программирование
