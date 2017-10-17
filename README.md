@@ -29,10 +29,50 @@ RTFM and use:
 * http://testng.org/doc/
 * http://site.mockito.org/
 
+2. Реализовать программу
+ВХОД: 
+путь к файлу или каталогу (может содержать подпапки) с исходными данными (строка) - (1).    
+путь к каталогу с результатами выполнения программы (строка) - (2)
+
+ВЫХОД:
+При успешном завершении должен быть создан каталог с указанным именем, включающий в себя подпапки: txt и binary, а 
+также файл skipped.txt. Каталог binary содержит в себе единственный файл - ZIP-архив. В каталог txt содержатся
+исключительно обработанные текстовые файлы. Файл skipped.txt содержит имена пропущенных файлов (абсолютный или 
+относительный путь) в естественном порядке.       
+В случае ошибки вывести на экран сообщение об ошибке. 
+
+ПОСТАНОВКА ЗАДАЧИ:
+Для всех файлов, включая файлы содержащиеся в подпапках произвести следующие операции:
+Для ZIP-архивов:
+* Содержимое ZIP-архива обрабатывается по тем же правилам, что текстовые и бинарные данные.
+Для текстовых файлов (с расширением .txt):
+* Отсортировать содержимое файла по количеству слов в строке и длине строки
+* Полученный результат должен быть помещён в каталог txt с тем же именем, что исходный файл. Исходный файл не должен
+быть изменён.
+* Пустые файлы должны быть пропущены, а путь к ним добавлен в файл skipped.txt в алфавитном порядке.
+* Файлы могут быть большого объёма (больше размера свободной памяти).
+Все остальные файлы:
+* Помещаются в единый ZIP-архив в соответствующие подкаталоги.
+* Пустые файлы пропускаются, а их имена заносятся в файл skipped.txt.
+
+Осуществить логирование.
+Контроль качества кода:
+* Провести тестирование - модульные тесты (80%)
+* Провести статический анализ кода (PMD/Findbugs)
+
+RTFM and use:
+* https://docs.oracle.com/javase/8/docs/api/java/util/zip/ZipEntry.html
+* https://docs.oracle.com/javase/8/docs/api/index.html?java/util/zip/ZipOutputStream.html
+* https://docs.oracle.com/javase/8/docs/api/java/util/zip/ZipInputStream.html
+* https://docs.oracle.com/javase/8/docs/api/java/util/logging/Logger.html
+* https://habrahabr.ru/post/130195/
+* https://docs.oracle.com/javase/tutorial/essential/io/index.html
+
+
 ## Лекции:
 ### 2017-09-12
 * JDK = JRE + Development/debugging tools
-  JRE = JVM + Java Packages Classes(like util, math, lang, awt,swing etc)+runtime libraries.
+  JRE = JVM + Java Packages Classes(like util, math, lang, awt,swing etc) + runtime libraries.   
   JVM = Class loader system + runtime data area + Execution Engine.
 * https://habrahabr.ru/post/269621/ - GC
 * https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html
