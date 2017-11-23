@@ -111,6 +111,78 @@ Arrays
 * Joshua Bloch - Effective Java (главы 30, 31 ,34)
 * Bruce Eckel - Thinking in Java (страницы 725 - 734)
 
+### 2017-10-10
+IO/NIO/NIO2
+* Bruce Eckel - Thinking in Java (страницы 647 - 725, раздел IO) - английский, но есть перевод
+* Joshua Bloch - Effective Java (раздел Serialization) - английский, но есть перевод
+* http://tutorials.jenkov.com/java-nio/index.html - английский, схемы, примеры
+* https://docs.oracle.com/javase/tutorial/essential/io/fileio.html (до Legacy File I/O Code, не включительно) - английский, примеры
+* http://www.quizful.net/post/java-nio-tutorial - русский, примеры
+
+### 2017-10-24
+Collection API, Generics
+* Bruce Eckel - Thinking in Java (всё из Holding Your Objects и Generics) - английский
+* Bruce Eckel - Философия Java (разделы Коллекции и Параметризация) - то же самое, но на русском
+* Joshua Bloch - Effective Java (Generics) - английский
+* https://habrahabr.ru/post/128017/
+* https://habrahabr.ru/post/128269/
+* https://habrahabr.ru/post/127864/ - можно, в принципе, пробежать по диагонали
+* https://habrahabr.ru/post/162017/
+
+Итераторы
+* https://docs.oracle.com/javase/9/docs/api/java/util/Iterator.html
+* https://docs.oracle.com/javase/9/docs/api/java/util/ListIterator.html
+* http://www.seostella.com/ru/article/2012/10/07/bezopasnyy-sposob-udaleniya-elementov-iz-kollekcii-v-java.html
+
+!!! Самое важное и полезное !!!
+
+### 2017-11-07
+JMM (Java Memory Model)
+* https://docs.oracle.com/javase/specs/jls/se9/jls9.pdf (Threads and Locks)
+* http://www.javaspecialist.ru/2011/06/java-memory-model.html - то же, что и выше, но вкратце и ущербно
+* https://shipilev.net/#jmm - видео
+
+### 2017-11-21
+Concurrency
+* https://habrahabr.ru/post/164487/
+* https://docs.oracle.com/javase/tutorial/essential/concurrency/index.html
+* https://habrahabr.ru/post/187854/
+* https://habrahabr.ru/company/luxoft/blog/157273/
+* https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/locks/ReentrantReadWriteLock.html - он такой классный)))
+
+В базах данных
+* https://habrahabr.ru/post/86302/
+* https://habrahabr.ru/post/121858/ - там отличная ссылка на Fowler's Patterns of Enterprise Application Architecture
+
+Ликбез
+* https://ru.wikipedia.org/wiki/Взаимная_блокировка
+* https://urvanov.ru/2016/05/27/java-8-многопоточность/ - deadlock, livelock, starvation
+
+!!! Жизненный цикл потока, synchronized, final, ReentrantReadWriteLock, volatile, Thread, Runnable!!!
+
+### 2017-12-05
+Шаблоны
+* Одиночка
+* Фабрика
+* Декоратор
+* Фасад
+* Блокировка с двойной проверкой
+
+JDBC
+* https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html
+
+### 2017-12-19
+Stream API
+* https://www.youtube.com/watch?v=0BsXi3qvv68
+* https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html
+* https://javadevblog.com/polnoe-rukovodstvo-po-java-8-stream.html
+
+Reflection
+* https://docs.oracle.com/javase/tutorial/reflect/
+* http://javadevblog.com/polnoe-rukovodstvo-po-java-reflection-api-refleksiya-na-primerah.html
+* https://habrahabr.ru/post/318418/
+
+
 ## Литература
 1. Joshua Bloch - Effective Java
 2. Bruce Eckel - Thinking in Java
