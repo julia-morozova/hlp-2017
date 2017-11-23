@@ -73,7 +73,7 @@ RTFM and use:
 * https://habrahabr.ru/post/130195/
 * https://docs.oracle.com/javase/tutorial/essential/io/index.html
 
-#### 3. Для вечернее отделение
+#### 3. Для вечернего отделения
 Реализовать шаблон проектирования производитель-потребитель.
 
 #### 3. Для дневного отделения
